@@ -1,0 +1,2 @@
+
+Teniendo en cuenta que BCI usa señales cerebrales, existen diversos métodos de adquisición de señales que se pueden emplear para la construcción de BCI. Entre las más comunes se encuentran, magnetoencefalografía(MEG), electrocorticografía(ECoG) y electroencefalografía(EEG), esta última es la más ampliamente usada debido a sus costos y ser sencillo a la hora de instalar, sin embargo posee problemas contra la protección del ruido [3]. 
