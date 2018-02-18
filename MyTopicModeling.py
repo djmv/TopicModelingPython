@@ -9,16 +9,15 @@ import numpy as np  # a conventional alias
 import sklearn.feature_extraction.text as text
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.decomposition import NMF
-#from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer
 import unicodedata
 import codecs
+from googletrans import Translator
 
 def load_codecs(file_name):
 	with codecs.open(file_name, "r",encoding='latin_1', errors='ignore') as fdata:
-		return fdata.read()
+		return fdata.readlines()
 
 def elimina_tildes(s):
- 
    s = ''.join((c for c in unicodedata.normalize('NFD', s) if unicodedata.category(c) != 'Mn'))
    return s.decode()
 
@@ -29,34 +28,31 @@ def load_file(filename):
 
 def display_topics(model, feature_names, no_top_words):
     for topic_idx, topic in enumerate(model.components_):
-        print "Topic %d:" % (topic_idx)
-        print " ".join([feature_names[i]
-                        for i in topic.argsort()[:-no_top_words - 1:-1]])
+        print ("Topic %d:" % (topic_idx))
+        print (" ".join([feature_names[i]
+                        for i in topic.argsort()[:-no_top_words - 1:-1]]))
     
 CORPUS_PATH = os.path.join('texto')
 
+translator = Translator()
 filenames = sorted([os.path.join(CORPUS_PATH, fn) for fn in os.listdir(CORPUS_PATH)])
 
 texto = [load_codecs(txt_file) for txt_file in filenames]
-#texto = [load_file(txt_file) for txt_file in filenames]
-#textodecode = [elimina_tildes(textodec) for textodec in texto]
+texto = texto[0]
 
-#textodecode = [textodec.decode('utf-8') for textodec in texto]
-#u = unicode(texto[0], "utf-8")
-textodecode2 = [elimina_tildes(textodec) for textodec in texto]
-#gg = elimina_tildes(u)
-#print gg
-#textodecode2 = [textodec.decode('utf8','ignore') for textodec in texto]
+texto_trad = [translator.translate(txt_file).text for txt_file in texto]
 
-tfidf_vectorizer = TfidfVectorizer(max_df=0.95, min_df=2)
-tfidf = tfidf_vectorizer.fit_transform(textodecode2)
+
+tfidf_vectorizer = TfidfVectorizer(max_df=0.95, min_df=2,stop_words='english')
+tfidf = tfidf_vectorizer.fit_transform(texto_trad)
 tfidf_feature_names = tfidf_vectorizer.get_feature_names()
 
-no_topics = 2
+no_topics = 5
 nmf = NMF(n_components=no_topics, random_state=1, alpha=.1, l1_ratio=.5, init='nndsvd').fit(tfidf)
 
 no_top_words = 10
 display_topics(nmf, tfidf_feature_names, no_top_words)
+
 """
 svectorizer = text.CountVectorizer(input='filename', min_df=20)
 dtm = vectorizer.fit_transform(filenames).toarray()

@@ -1,0 +1,47 @@
+A Collaborative Supply Chain Model for Non-For-Profit Networks Based on Cooperative Game Theory
+Multicriteria Optimization in a Typical Multi-Isle Warehouse with Multiple Racks
+A literature review on the vehicle routing problem with multiple depots
+Mathematical Programming Modeling and Resolution of the Location-Routing Problem in Urban Logistics
+COUPLING ANT COLONY OPTIMIZATION AND DISCRETE-EVENT SIMULATION TO SOLVE A STOCHASTIC LOCATION-ROUTING PROBLEM
+The design of a real-time Warehouse Management System that integrates simulation and optimization models with RFID technology
+Multi-objective Optimization of the Resource Constrained Project Scheduling Problem (RCPSP)
+Global Bacteria Optimization: A Metaheuristic Inspired on Bacteria Phototaxis to Solve Multi-objective Optimization Problems
+The Dynamic Demand Game: A Markov State Fictitious Play Approach to a Two-Echelon Supply Chain Problem under Demand Uncertainty
+Desarrollo de un modelo heurístico para la optimización en el manejo de material en estibas en una bodega
+A Fictitious Play Algorithm applied to a retailer's replenishment decision problem in a two-echelon supply chain
+ Information Asymmetry and Inter-Firm Relationships: Are there Any Linkages?
+The Necessary Alignment Between Technology Innovation Effectiveness and Operational Effectiveness
+Modeling of Supply Chain with Variation of Inventory Systems at Nodes
+Supply Chain Collaboration: Capabilities for Continuous Innovation
+ANÁLISIS DE CRITICIDAD EN SISTEMAS DEL SECTOR DE REFINACIÓN, APLICANDO LA TÉCNICA DE PROCESO DE ANÁLISIS JERÁRQUICO (AHP - ANALYTICAL HIERARCHY PROCESS)
+Logística Inversa: una herramienta de apoyo a la competitividad de las organizaciones
+INGENIERÍA DE FIABILIDAD APLICADA AL PROCESO DE ANÁLISIS DE COSTE DE CICLO DE VIDA (ACCV): REVISIÓN DE MODELOS BÁSICOS
+Beneficio obtenido en una línea de transferencia estocástica con ocurrencia de fallas por la incorporación de buffers
+MODELO INTEGRAL PARA OPTIMIZAR LA FIABILIDAD EN INSTALACIONES PETROLERAS
+Game Theoretic Approaches To Parallel Machine Scheduling
+Simulation-Based Analysis of Urban Freight Transport with Stochastic Features
+ Global Bacteria Optimization Meta-Heuristic: Performance Analysis and Application to Shop Scheduling Problems
+Solving the stochastic location-routing problem with ACO and Discrete-Event Simulation
+Desarrollo y Codificación de un Modelo Matemático para la Optimización de un Problema de Ruteo de Vehículos con Múltiples Depósitos
+A Cooperative Game Approach to a Production Planning Problem
+Data Mining for the Unique Identification of Patients in the National Healthcare Systems
+Diseño y desarrollo de un modelo de gestión para la innovación de una empresa dedicada al mantenimiento de maquinas
+DESARROLLO DE SISTEMAS INTELIGENTES DE GESTIÓN DE TRANSPORTE PARA SOPORTE A LA TOMA DE DECISIONES OPERATIVAS URBANAS
+Desarrollo de un sistema de información para la gestión de usuarios en la Secretaría de salud del Distrito de Barranquilla
+Rediseño de la logística de transporte de materiales ambientalmente peligrosos a través del desarrollo y evaluación de un prototipo de hidro-lavado sostenible para sistemas de almacenamiento cerrado basado en tratamiento de residuos contaminantes
+Diseño y Ejecución de una plataforma de toma de decisiones multiobjetivo para la planificación de operaciones constructoras de AM CARIBE Ltda.
+Formulación de Proyectos y desarrollo de prácticas innovadoras en ENSACAR S.A
+Formulación de Proyectos y Asesoría en Innovación en Jackies Design
+Desarrollo de modelos del sistema logístico de almacenamiento de Laboratorios Rety de Colombia para toma de decisiones de capacidad y distribución.
+Modelos de simulación para gestión de bodegas
+Desarrollo de nuevos protocolos para el lavado de tanques con residuos peligrosos
+Desarrollo del plan de innovación para la empresa Indenar
+Desarrollo del plan de innovación para la empresa Dry Ice Blasting
+Desarrollo del plan de innovación para la empresa Agencia de Aduanas Merco S.A. Nivel 1
+ Desarrollo del plan de innovación para la empresa Openmer Andinos S.A.S.
+Desarrollo de grupo de I+D+I en una empresa de limpieza criogenica
+Desarrollo de plan de innovación para la empresa dryiceblasting ltda
+Desarrollo de plan de innovación para la empresa Grupo Zambrano
+Desarrollo de plan de innovación para la empresa INDENAR EU
+Definición de procedimientos para la I+D+I en la empresa Dry Ice Blasting
+Sistema de Hirolavado Móvil y Fijo para la limpieza de Carrotanques
